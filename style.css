@@ -12,16 +12,15 @@ body {
     font-family: Arial, Helvetica, sans-serif
 }
 
-.form-container{
+.container{
     width: 800px;
     padding: 20px;
 }
 
-.form-container label,
-.form-container h2{
+#user-info label{
     margin-bottom: 20px;
 }
-.form-container label span{
+#user-info label span{
     display: block;
 }
 
