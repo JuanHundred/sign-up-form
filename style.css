@@ -21,18 +21,35 @@ body{
 
 .container{
     width: 1000px;
-    height: 500px;
+    height: 550px;
     display: flex;
     margin-top: 100px;
     flex-direction: row;
     gap: 20px;
     border-radius: 20px;
-    background-color: white;
+    background-color: #112642;
+    color: white;
     overflow: hidden;
+    box-shadow: 0px 10px 10px #FFFFFF;
 }
+
+.company-name{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 25%;
+    width: 100%;
+    background-color: #f5eeeebe;
+    padding: 10px;
+}
+
 #left-side{
+    position: relative;
     height: auto;
-    width: 65%;
+    width: 67%;
 }
 
 #left-side img{
@@ -40,8 +57,16 @@ body{
     height: 100%;
 }
 
+#right-side{
+    padding: 10px;
+}
+
 #user-info label{
     margin-bottom: 20px;
+}
+
+label span{
+    margin-bottom: 5px;
 }
 
 #user-info label span{
@@ -58,4 +83,10 @@ body{
 #user-info input {
     flex-basis: 50%;
     flex-grow: 0; 
+}
+#user-info input{
+    border-radius: 5px;
+    height: 30px;
+    width: 220px;
+    border: transparent;
 }
