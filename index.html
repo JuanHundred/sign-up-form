@@ -36,13 +36,15 @@
                         <span>Username*</span>
                         <input type="text" name="username" id="username" placeholder="John1234" required>
                     </label>
-                    <label for="password">
-                        <span>Password*</span>
-                        <input type="password" name="password" id="password" placeholder="********" minlength="8" required>
+                    <label for="password" class="passwords-no-match">
+                        <span class="password-span">Password*</span>
+                        <input type="password" name="password" id="password" placeholder="●●●●●●●●" minlength="8" required>
+                        <span class="tip">Minimum of 8 characters</span>
                     </label>
-                    <label for="confirm_password">
-                        <span>Confirm Password*</span>
-                        <input type="password" name="confirm_password" id="confirm_password" placeholder="********"  minlength="8" required>
+                    <label for="confirm_password" class="passwords-no-match">
+                        <span class="confirm-pass-span">Confirm Password*</span>
+                        <input type="password" name="confirm_password" id="confirm_password" placeholder="●●●●●●●●"  minlength="8" required>
+                        <span class="tip">Minimum of 8 characters</span>
                     </label>
                 </section>
                 <button type="submit">Create Account</button>
@@ -50,5 +52,6 @@
             <p>Already have an account? <a href="#">Log in</a></p>
         </div>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
