@@ -33,6 +33,6 @@ body {
 
 #user-info label, 
 #user-info input {
-    flex-basis: 50%; /* Adjust basis to control item size */
-    flex-grow: 0; /* Allow items to grow to fill space */
+    flex-basis: 50%;
+    flex-grow: 0; 
 }
