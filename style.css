@@ -10,7 +10,7 @@ html,
 body {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #EC4E20;
+    background-color: #FF6139;
 }
 
 body{
@@ -49,7 +49,7 @@ body{
 #left-side{
     position: relative;
     height: auto;
-    width: 67%;
+    width: 80%;
 }
 
 #left-side img{
@@ -58,7 +58,24 @@ body{
 }
 
 #right-side{
-    padding: 10px;
+    padding: 20px 20px 20px 30px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.header h3{
+    color:#F03F21;
+}
+
+.sign-up{
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #b9b8b8;
 }
 
 #user-info label{
@@ -84,11 +101,48 @@ label span{
     flex-basis: 50%;
     flex-grow: 0; 
 }
+
 #user-info input{
     border-radius: 5px;
-    height: 30px;
-    width: 220px;
+    height: 27px;
+    width: 280px;
     border: transparent;
     padding-left: 10px;
     font-size: 1.1rem;
+}
+
+.create-acc-bttn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#create-acc{
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #4BBAC5;
+    border: 2px solid transparent;
+}
+
+#create-acc:hover{
+    background-color: #309faa;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.account-exists{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.account-exists p {
+    font-size: 0.9rem;
+}
+
+.account-exists p a{
+    text-decoration: none;
+    color: #EC4E20;
 }
