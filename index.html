@@ -13,12 +13,13 @@
             <img src="images/sneakers-unsplash.jpeg" alt="">
         </div>
         <div id="right-side">
-            <h1>Flyer Shoes</h1>
-            <h2>Sign up below</h2>
-            <h3>This is not a real online service! You know you need something like in your life to help you realize your deepest dreams. Sign up now to get started.</h3>
-            <h3>You know you want to.</h3>
-            <form action="#" method="post">
-                <h2>Let's do this!</h2>
+            <div class="header">
+                <h1>Flyer Shoes</h1>
+                <h3>Step into Greatness</h3>
+            </div> 
+            <p class="description">Unleash your potential with the perfect pair of sneakers for every adventure. From streetwear to sportswear, Flyer Shoes has you covered with the latest styles and cutting-edge comfort technology. Join our community and elevate your sneaker game to new heights.</p>
+            <p class="sign-up">Sign up now for a chance to be the first to experience our exclusive new collection.</p>
+            <form method="post">
                 <section id="user-info">
                     <label for="first_name">
                         <span>First Name*</span>
@@ -47,9 +48,13 @@
                         <span class="tip">Minimum of 8 characters</span>
                     </label>
                 </section>
-                <button type="submit">Create Account</button>
+                <div class="create-acc-bttn">
+                    <button type="submit" id="create-acc">Create Account</button>
+                </div>
             </form>
-            <p>Already have an account? <a href="#">Log in</a></p>
+            <div class="account-exists">
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
         </div>
     </main>
     <script src="index.js"></script>
